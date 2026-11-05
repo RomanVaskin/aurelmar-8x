@@ -19,7 +19,7 @@ export function Partners() {
             <span className="h-px w-12 bg-champagne" />
             Партнёрам
           </p>
-          <h2 className="mb-8 text-balance font-serif text-5xl font-light leading-[1.05] text-milk md:text-7xl">
+          <h2 className="mb-8 text-balance font-serif text-[2.5rem] font-light leading-[1.05] text-milk md:text-6xl">
             Создадим
             <br />
             <span className="italic text-champagne-soft">общее будущее</span>

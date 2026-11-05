@@ -26,7 +26,7 @@ export function Services() {
           <p className="text-[11px] font-medium uppercase tracking-[0.38em] text-champagne lg:col-span-3">
             Услуги
           </p>
-          <h2 className="text-balance font-serif text-5xl font-light leading-[1.05] text-navy md:text-7xl lg:col-span-9">
+          <h2 className="text-balance font-serif text-[2.5rem] font-light leading-[1.05] text-navy md:text-6xl lg:col-span-9">
             Всё, что нужно
             <br />
             <span className="italic text-navy/60">для жизни без границ</span>
@@ -40,7 +40,7 @@ export function Services() {
                 <span className="font-serif text-xl italic text-champagne md:col-span-1 md:pl-2">
                   {s.index}
                 </span>
-                <h3 className="text-balance font-serif text-3xl font-light leading-tight text-navy transition-transform duration-500 group-hover:translate-x-3 md:col-span-6 md:text-5xl">
+                <h3 className="text-balance font-serif text-3xl font-light leading-tight text-navy transition-transform duration-500 group-hover:translate-x-3 md:col-span-6 md:text-[2.5rem]">
                   {s.title}
                 </h3>
                 <p className="max-w-md text-pretty leading-relaxed text-navy/65 md:col-span-4">

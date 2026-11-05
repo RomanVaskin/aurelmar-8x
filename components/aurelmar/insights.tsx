@@ -33,7 +33,7 @@ export function Insights() {
           <p className="text-[11px] font-medium uppercase tracking-[0.38em] text-champagne lg:col-span-3">
             Аналитика
           </p>
-          <h2 className="text-balance font-serif text-5xl font-light leading-[1.05] text-navy md:text-7xl lg:col-span-9">
+          <h2 className="text-balance font-serif text-[2.5rem] font-light leading-[1.05] text-navy md:text-6xl lg:col-span-9">
             Взгляд <span className="italic text-navy/60">изнутри рынка</span>
           </h2>
         </Reveal>
@@ -43,7 +43,7 @@ export function Insights() {
             <Reveal key={a.title} delay={i * 150}>
               <article className="group">
                 <a href="#insights" className="block">
-                  <div className="relative mb-7 aspect-[3/2] overflow-hidden bg-navy">
+                  <div className="relative mb-7 aspect-[3/2] overflow-hidden bg-sand">
                     <Image
                       src={a.image}
                       alt={a.alt}

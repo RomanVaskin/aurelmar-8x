@@ -39,7 +39,7 @@ export function Destinations() {
           <p className="text-[11px] font-medium uppercase tracking-[0.38em] text-champagne lg:col-span-3">
             Направления
           </p>
-          <h2 className="text-balance font-serif text-5xl font-light leading-[1.05] text-navy md:text-7xl lg:col-span-9">
+          <h2 className="text-balance font-serif text-[2.5rem] font-light leading-[1.05] text-navy md:text-6xl lg:col-span-9">
             Три побережья,
             <br />
             <span className="italic text-navy/60">одна философия выбора</span>
@@ -50,7 +50,7 @@ export function Destinations() {
           {destinations.map((d, i) => (
             <Reveal key={d.name} delay={i * 150} className={d.offset}>
               <a href="#properties" className="group block">
-                <div className="relative aspect-[3/4] overflow-hidden bg-navy">
+                <div className="relative aspect-[3/4] overflow-hidden bg-sand">
                   <Image
                     src={d.image}
                     alt={d.alt}
@@ -63,7 +63,7 @@ export function Destinations() {
                     {d.index}
                   </span>
                   <div className="absolute inset-x-6 bottom-6 flex items-end justify-between">
-                    <h3 className="font-serif text-5xl font-light text-milk lg:text-6xl">
+                    <h3 className="font-serif text-[2.5rem] font-light text-milk lg:text-5xl">
                       {d.name}
                     </h3>
                     <span

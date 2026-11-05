@@ -26,14 +26,14 @@ export function Hero() {
           International Real Estate
         </p>
         <h1
-          className="animate-fade-up max-w-5xl text-balance font-serif text-[clamp(3.25rem,9vw,8.5rem)] font-light leading-[0.95] tracking-tight text-milk"
+          className="animate-fade-up max-w-5xl text-balance font-serif text-[clamp(2.75rem,7.4vw,7rem)] font-light leading-[0.95] tracking-tight text-milk"
           style={{ animationDelay: '0.7s' }}
         >
           Недвижимость
           <br />
           <span className="italic text-champagne-soft">без границ</span>
         </h1>
-        <div className="mt-12 flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
+        <div className="mt-12 flex flex-col gap-10 xl:flex-row xl:items-end xl:justify-between">
           <p
             className="animate-fade-up max-w-md text-pretty text-base leading-relaxed text-milk/80 lg:text-lg"
             style={{ animationDelay: '0.95s' }}
@@ -41,14 +41,30 @@ export function Hero() {
             Международная недвижимость. Инвестиционные возможности. Локальная
             экспертиза.
           </p>
-          <a
-            href="#destinations"
-            className="animate-fade-up group inline-flex w-fit items-center gap-5 text-[11px] font-medium uppercase tracking-[0.3em] text-milk"
+          <div
+            className="animate-fade-up flex flex-col items-start gap-8 sm:flex-row sm:items-center sm:gap-10 xl:mr-16"
             style={{ animationDelay: '1.15s' }}
           >
-            Открыть направления
-            <span className="relative block h-px w-16 bg-champagne transition-all duration-500 group-hover:w-24" />
-          </a>
+            <a
+              href="#properties"
+              className="group inline-flex items-center gap-6 whitespace-nowrap border border-champagne bg-navy-deep/30 px-9 py-5 text-[11px] font-medium uppercase tracking-[0.3em] text-champagne backdrop-blur-sm transition-colors duration-500 hover:bg-champagne hover:text-navy"
+            >
+              Подобрать недвижимость
+              <span
+                aria-hidden="true"
+                className="transition-transform duration-500 group-hover:translate-x-2"
+              >
+                →
+              </span>
+            </a>
+            <a
+              href="#destinations"
+              className="group inline-flex w-fit items-center gap-5 whitespace-nowrap text-[11px] font-medium uppercase tracking-[0.3em] text-milk"
+            >
+              Открыть направления
+              <span className="relative block h-px w-16 bg-champagne transition-all duration-500 group-hover:w-24" />
+            </a>
+          </div>
         </div>
       </div>
 

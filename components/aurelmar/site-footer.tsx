@@ -17,7 +17,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-[1500px]">
         <div className="grid gap-16 border-b border-milk/15 pb-20 lg:grid-cols-12">
           <div className="lg:col-span-6">
-            <p className="font-serif text-5xl font-light tracking-[0.3em] md:text-6xl">
+            <p className="font-serif text-[2.5rem] font-light tracking-[0.3em] md:text-5xl">
               AURELMAR
             </p>
             <p className="mt-6 max-w-sm text-pretty leading-relaxed text-milk/60">

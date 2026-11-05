@@ -29,7 +29,7 @@ export function Approach() {
           <p className="mb-8 text-[11px] font-medium uppercase tracking-[0.38em] text-champagne">
             Подход AURELMAR
           </p>
-          <h2 className="text-balance font-serif text-5xl font-light leading-[1.05] md:text-7xl">
+          <h2 className="text-balance font-serif text-[2.5rem] font-light leading-[1.05] md:text-6xl">
             Сдержанная
             <br />
             <span className="italic text-champagne-soft">экспертиза</span>

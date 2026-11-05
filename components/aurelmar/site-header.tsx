@@ -21,6 +21,15 @@ export function SiteHeader() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
+  useEffect(() => {
+    if (!open) return
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOpen(false)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [open])
+
   const solid = scrolled || open
 
   return (
@@ -79,8 +88,10 @@ export function SiteHeader() {
 
       <div
         id="mobile-menu"
-        className={`overflow-hidden transition-[max-height] duration-500 lg:hidden ${
-          open ? 'max-h-96' : 'max-h-0'
+        className={`overflow-y-auto transition-[max-height] duration-500 lg:hidden ${
+          open
+            ? 'max-h-[calc(100svh-5rem)] visible'
+            : 'max-h-0 invisible overflow-hidden'
         }`}
       >
         <ul className="flex flex-col gap-6 px-6 pb-8 pt-8">

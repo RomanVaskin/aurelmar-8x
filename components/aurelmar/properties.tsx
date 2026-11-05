@@ -40,7 +40,7 @@ export function Properties() {
             <p className="mb-8 text-[11px] font-medium uppercase tracking-[0.38em] text-champagne">
               Недвижимость
             </p>
-            <h2 className="text-balance font-serif text-5xl font-light leading-[1.05] text-navy md:text-7xl">
+            <h2 className="text-balance font-serif text-[2.5rem] font-light leading-[1.05] text-navy md:text-6xl">
               Избранные
               <br />
               <span className="italic text-navy/60">объекты</span>
@@ -59,7 +59,7 @@ export function Properties() {
           {properties.map((p, i) => (
             <Reveal key={p.title} delay={i * 150}>
               <article className="group">
-                <div className="relative aspect-[4/5] overflow-hidden bg-navy">
+                <div className="relative aspect-[4/5] overflow-hidden bg-sand">
                   <Image
                     src={p.image}
                     alt={p.alt}
