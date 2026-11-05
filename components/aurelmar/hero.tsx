@@ -14,11 +14,12 @@ export function Hero() {
         sizes="100vw"
         className="animate-slow-zoom object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/90 via-navy/25 to-navy/50" />
+      <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/90 via-navy/30 to-navy/50" />
+      <div className="absolute inset-0 bg-gradient-to-r from-navy-deep/55 via-transparent to-transparent" />
 
       <div className="relative mx-auto w-full max-w-[1500px] px-6 pb-24 pt-40 lg:px-12 lg:pb-28">
         <p
-          className="animate-fade-up mb-8 flex items-center gap-5 text-[11px] font-medium uppercase tracking-[0.38em] text-champagne"
+          className="animate-fade-up mb-8 flex items-center gap-5 text-[11px] font-medium uppercase tracking-[0.38em] text-champagne-soft"
           style={{ animationDelay: '0.5s' }}
         >
           <span className="h-px w-12 bg-champagne" />
